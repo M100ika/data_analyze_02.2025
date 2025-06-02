@@ -1,0 +1,10 @@
+g_Helicobacter	fdr_pval=2.8184441319909314e-05
+c_Saccharimonadia	fdr_pval=2.2204814981019768e-11
+g_Escherichia-Shigella	fdr_pval=6.963623112445794e-09
+g_Fusobacterium	fdr_pval=1.2644284997665175e-07
+p_	fdr_pval=0.00040588294810990817
+f_Lactobacillaceae	fdr_pval=0.3575277625851452
+g_Campylobacter	fdr_pval=0.0351863721344872
+o_Lactobacillales	fdr_pval=0.0005299516631525151
+c_Bacteroidia	fdr_pval=0.0019734820561858038
+c_Campylobacteria	fdr_pval=0.0027381825843551706

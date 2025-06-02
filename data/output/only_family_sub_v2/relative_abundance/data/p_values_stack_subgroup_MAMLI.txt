@@ -1,0 +1,3 @@
+p_values_stack_subgroup_MAMLI: 
+{'f_Helicobacteraceae': 0.09567354770975643, 'f_Oscillospiraceae': 0.8197692289884361, 'f_Prevotellaceae': 0.8381085318215669, 'f_Enterobacteriaceae': 0.05784301727108929, 'f_Fusobacteriaceae': 0.011889477959666765, 'f_Lactobacillaceae': 0.2200644196831342, 'f_Saccharimonadaceae': 0.8451427182370929, 'f_Erysipelotrichaceae': 0.9463633686986452, 'f_Bacteroidaceae': 0.013449838925139465, 'f_Rikenellaceae': 0.6118769461533125}
+

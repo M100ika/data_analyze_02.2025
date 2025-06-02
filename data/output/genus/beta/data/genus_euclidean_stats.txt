@@ -1,0 +1,19 @@
+euclidean PERMANOVA results: 
+method name               PERMANOVA
+test statistic name        pseudo-F
+sample size                     133
+number of groups                  4
+test statistic             6.073399
+p-value                       0.001
+number of permutations          999
+Name: PERMANOVA results, dtype: object
+
+euclidean ANOSIM results: 
+method name                 ANOSIM
+test statistic name              R
+sample size                    133
+number of groups                 4
+test statistic            0.125733
+p-value                      0.001
+number of permutations         999
+Name: ANOSIM results, dtype: object

@@ -1,0 +1,3 @@
+p_values_stack_subgroup_Fecal: 
+{'p_Patescibacteria': 0.010077959187929395, 'p_Bacteroidota': 0.4604769674826057, 'p_Firmicutes': 0.3615772895848684, 'p_Campylobacterota': 0.9747340877222298, 'p_Proteobacteria': 0.549557454141552, 'p_Actinobacteriota': 0.46889651285858236, 'p_Fusobacteriota': 0.16099655578962066}
+

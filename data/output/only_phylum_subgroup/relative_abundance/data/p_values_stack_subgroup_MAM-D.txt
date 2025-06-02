@@ -1,0 +1,3 @@
+p_values_stack_subgroup_MAM-D: 
+{'p_Patescibacteria': 0.0005720168891331684, 'p_Fusobacteriota': 0.017660657373867728, 'p_Campylobacterota': 0.03786671298279462, 'p_Proteobacteria': 0.6356014663790179, 'p_Actinobacteriota': 0.403667821930791, 'p_Firmicutes': 0.12905232645727255, 'p_Bacteroidota': 0.11917979674980846}
+

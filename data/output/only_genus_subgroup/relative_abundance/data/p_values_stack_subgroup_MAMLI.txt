@@ -1,0 +1,3 @@
+p_values_stack_subgroup_MAMLI: 
+{'g_Helicobacter': 0.09567354770975643, 'g_Fusobacterium': 0.003274426619037444, 'g_Escherichia-Shigella': 0.04186275189974546, 'g_Candidatus Saccharimonas': 0.8451427182370929, 'g_UCG-005': 0.8641333731596191, 'g_Colidextribacter': 0.9649045810636817, 'g_Bacteroides': 0.008420581831444285, 'g_Allobaculum': 0.7712505173055497, 'g_Lachnospiraceae NK4A136 group': 0.5506475544418945, 'g_Blautia': 0.23316186690546511}
+

@@ -1,0 +1,3 @@
+p_values_stack_subgroup_MAMLI: 
+{'p_Firmicutes': 0.6635135936658023, 'p_Campylobacterota': 0.13635843502196512, 'p_Bacteroidota': 0.2643509195639593, 'p_Proteobacteria': 0.007434684788380153, 'p_Patescibacteria': 0.8144624644469194, 'p_Fusobacteriota': 0.005052118654133667, 'p_Spirochaetota': 0.5798662617735861, 'p_Desulfobacterota': 0.4692551437435911, 'p_Actinobacteriota': 0.21414319834384787, 'p_Euryarchaeota': 0.3946295163257484}
+

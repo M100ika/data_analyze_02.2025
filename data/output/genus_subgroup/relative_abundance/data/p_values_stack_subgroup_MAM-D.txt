@@ -1,0 +1,3 @@
+p_values_stack_subgroup_MAM-D: 
+{'g_Helicobacter': 0.004427294904486378, 'c_Saccharimonadia': 0.0005720168891331684, 'g_Escherichia-Shigella': 0.006916200232483772, 'g_Fusobacterium': 0.02084846820801281, 'p_Fusobacteriota': 0.017660657373867728, 'c_Campylobacteria': 0.03786671298279462, 'f_Lactobacillaceae': 0.727942831860904, 'g_Lactobacillus': 0.22860536831706324, 'f_Helicobacteraceae': 0.6356014663790179, 'g_Jeotgalicoccus': 0.016984715687597927}
+

@@ -1,0 +1,10 @@
+s__Helicobacter apodemus	fdr_pval=0.00046512938873490147
+c__Saccharimonadia	fdr_pval=2.2204814981019768e-11
+s__Escherichia coli	fdr_pval=2.9301688086545287e-08
+f__Lactobacillaceae	fdr_pval=0.3575277625851452
+s__Helicobacter muridarum	fdr_pval=0.005737347656991345
+s__Fusobacterium varium	fdr_pval=4.6318246160996447e-10
+g__Campylobacter	fdr_pval=0.11232471439398548
+o__Lactobacillales	fdr_pval=0.000635941995783018
+c__Bacteroidia	fdr_pval=0.0023023957322167708
+c__Campylobacteria	fdr_pval=0.0031293515249773383

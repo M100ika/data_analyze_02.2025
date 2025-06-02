@@ -1,0 +1,3 @@
+p_values_stack_subgroup_MAM-D: 
+{'f_Helicobacteraceae': 0.004427294904486378, 'f_Enterobacteriaceae': 0.006916200232483772, 'f_Fusobacteriaceae': 0.02084846820801281, 'f_Lactobacillaceae': 0.727942831860904, 'f_Staphylococcaceae': 0.016984715687597927, 'f_Bacteroidaceae': 0.04820678590537932, 'f_Aerococcaceae': 0.0018973663966035392, 'f_Erysipelotrichaceae': 0.020905944447010973, 'f_Campylobacteraceae': 0.652661459269708, 'f_Corynebacteriaceae': 0.403667821930791}
+

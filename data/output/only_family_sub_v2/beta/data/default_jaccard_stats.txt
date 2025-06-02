@@ -1,0 +1,19 @@
+jaccard PERMANOVA results: 
+method name               PERMANOVA
+test statistic name        pseudo-F
+sample size                      22
+number of groups                  4
+test statistic             0.979024
+p-value                        0.44
+number of permutations          999
+Name: PERMANOVA results, dtype: object
+
+jaccard ANOSIM results: 
+method name                 ANOSIM
+test statistic name              R
+sample size                     22
+number of groups                 4
+test statistic           -0.022211
+p-value                      0.538
+number of permutations         999
+Name: ANOSIM results, dtype: object

@@ -1,0 +1,3 @@
+p_values_stack_subgroup_Fecal: 
+{'c_Saccharimonadia': 0.010077959187929395, 'g_Fusobacterium': 0.10899581640274109, 'g_Escherichia-Shigella': 0.11707024382161904, 'c_Bacteroidia': 0.5672952533567757, 'f_Muribaculaceae': 0.34882716382270906, 'c_Clostridia': 0.9722286793691396, 'o_Bacteroidales': 0.6747649664905333, 'f_Lachnospiraceae': 0.7821334172836958, 'g_UCG-005': 0.8590367933702605, 'g_Bacteroides': 0.13398618304236815}
+

@@ -1,0 +1,3 @@
+p_values_stack_subgroup_Fecal: 
+{'f_Oscillospiraceae': 0.899411779533314, 'f_Prevotellaceae': 0.957707795487508, 'f_Fusobacteriaceae': 0.09611062186339876, 'f_Enterobacteriaceae': 0.1249617816166363, 'f_Muribaculaceae': 0.3076761590434839, 'f_Lactobacillaceae': 0.41201687879677285, 'f_Erysipelotrichaceae': 0.478693649993991, 'f_Rikenellaceae': 0.10843323538566162, 'f_Bacteroidaceae': 0.1117064152325615, 'f_[Eubacterium] coprostanoligenes group': 0.8299084121345057}
+

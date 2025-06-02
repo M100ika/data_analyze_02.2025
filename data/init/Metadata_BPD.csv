@@ -1,0 +1,134 @@
+#SampleID,fastqFile,GROUP,Unnamed: 3
+3A,MAM-J,OB-BPD/DS ,резекция
+3B,MAM-I,OB-BPD/DS ,резекция
+3C,MAMLI,OB-BPD/DS ,резекция
+3D,MAM-D,OB-BPD/DS ,резекция
+3F,Fecal,OB-BPD/DS ,резекция
+4A,MAM-J,OB-BPD/DS ,резекция
+4B,MAM-I,OB-BPD/DS ,резекция
+4C,MAMLI,OB-BPD/DS ,резекция
+4D,MAM-D,OB-BPD/DS ,резекция
+4F,Fecal,OB-BPD/DS ,резекция
+6A,MAM-J,OB-BPD/DS ,резекция
+6B,MAM-I,OB-BPD/DS ,резекция
+6C,MAMLI,OB-BPD/DS ,резекция
+6D,MAM-D,OB-BPD/DS ,резекция
+6F,Fecal,OB-BPD/DS ,резекция
+7A,MAM-J,OB-BPD/DS ,резекция
+7B,MAM-I,OB-BPD/DS ,резекция
+7C,MAMLI,OB-BPD/DS ,резекция
+7D,MAM-D,OB-BPD/DS ,резекция
+10A,MAM-J,OB-BPD/DS ,резекция
+10B,MAM-I,OB-BPD/DS ,резекция
+10C,MAMLI,OB-BPD/DS ,резекция
+10D,MAM-D,OB-BPD/DS ,резекция
+10F,Fecal,OB-BPD/DS ,резекция
+11A,MAM-J,VFGM-BPD/DS ,резекция+козье молоко
+11B,MAM-I,VFGM-BPD/DS ,резекция+козье молоко
+11C,MAMLI,VFGM-BPD/DS ,резекция+козье молоко
+11D,MAM-D,VFGM-BPD/DS ,резекция+козье молоко
+11F,Fecal,VFGM-BPD/DS ,резекция+козье молоко
+12A,MAM-J,VFGM-BPD/DS ,резекция+козье молоко
+12B,MAM-I,VFGM-BPD/DS ,резекция+козье молоко
+12C,MAMLI,VFGM-BPD/DS ,резекция+козье молоко
+12D,MAM-D,VFGM-BPD/DS ,резекция+козье молоко
+12F,Fecal,VFGM-BPD/DS ,резекция+козье молоко
+13A,MAM-J,VFGM-BPD/DS ,резекция+козье молоко
+13C,MAMLI,VFGM-BPD/DS ,резекция+козье молоко
+13D,MAM-D,VFGM-BPD/DS ,резекция+козье молоко
+13F,Fecal,VFGM-BPD/DS ,резекция+козье молоко
+14A,MAM-J,VFGM-BPD/DS ,резекция+козье молоко
+14B,MAM-I,VFGM-BPD/DS ,резекция+козье молоко
+14C,MAMLI,VFGM-BPD/DS ,резекция+козье молоко
+14D,MAM-D,VFGM-BPD/DS ,резекция+козье молоко
+14F,Fecal,VFGM-BPD/DS ,резекция+козье молоко
+15A,MAM-J,VFGM-BPD/DS ,резекция+козье молоко
+15B,MAM-I,VFGM-BPD/DS ,резекция+козье молоко
+15C,MAMLI,VFGM-BPD/DS ,резекция+козье молоко
+15D,MAM-D,VFGM-BPD/DS ,резекция+козье молоко
+16A,MAM-J,VFGM-BPD/DS ,резекция+козье молоко
+16B,MAM-I,VFGM-BPD/DS ,резекция+козье молоко
+16C,MAMLI,VFGM-BPD/DS ,резекция+козье молоко
+16D,MAM-D,VFGM-BPD/DS ,резекция+козье молоко
+16F,Fecal,VFGM-BPD/DS ,резекция+козье молоко
+18A,MAM-J,VFGM-BPD/DS ,резекция+козье молоко
+18B,MAM-I,VFGM-BPD/DS ,резекция+козье молоко
+18C,MAMLI,VFGM-BPD/DS ,резекция+козье молоко
+18D,MAM-D,VFGM-BPD/DS ,резекция+козье молоко
+18F,Fecal,VFGM-BPD/DS ,резекция+козье молоко
+19A,MAM-J,VFGM-BPD/DS ,резекция+козье молоко
+19B,MAM-I,VFGM-BPD/DS ,резекция+козье молоко
+19C,MAMLI,VFGM-BPD/DS ,резекция+козье молоко
+19D,MAM-D,VFGM-BPD/DS ,резекция+козье молоко
+20A,MAM-J,VFGM-BPD/DS ,резекция+козье молоко
+20B,MAM-I,VFGM-BPD/DS ,резекция+козье молоко
+20C,MAMLI,VFGM-BPD/DS ,резекция+козье молоко
+20D,MAM-D,VFGM-BPD/DS ,резекция+козье молоко
+20F,Fecal,VFGM-BPD/DS ,резекция+козье молоко
+21A,MAM-J,VFGM-BPD/DS ,резекция+козье молоко
+21B,MAM-I,VFGM-BPD/DS ,резекция+козье молоко
+21C,MAMLI,VFGM-BPD/DS ,резекция+козье молоко
+21F,Fecal,VFGM-BPD/DS ,резекция+козье молоко
+22A,MAM-J,VFGM,козье молоко без резекции
+22B,MAM-I,VFGM,козье молоко без резекции
+22C,MAMLI,VFGM,козье молоко без резекции
+22D,MAM-D,VFGM,козье молоко без резекции
+22F,Fecal,VFGM,козье молоко без резекции
+23A,MAM-J,VFGM,козье молоко без резекции
+23B,MAM-I,VFGM,козье молоко без резекции
+23C,MAMLI,VFGM,козье молоко без резекции
+23D,MAM-D,VFGM,козье молоко без резекции
+23F,Fecal,VFGM,козье молоко без резекции
+24A1,MAM-J,VFGM,козье молоко без резекции
+24B,MAM-I,VFGM,козье молоко без резекции
+24D,MAM-D,VFGM,козье молоко без резекции
+24F,Fecal,VFGM,козье молоко без резекции
+25A,MAM-J,VFGM,козье молоко без резекции
+25B,MAM-I,VFGM,козье молоко без резекции
+25C,MAMLI,VFGM,козье молоко без резекции
+25F,Fecal,VFGM,козье молоко без резекции
+26A,MAM-J,VFGM,козье молоко без резекции
+26B,MAM-I,VFGM,козье молоко без резекции
+26C,MAMLI,VFGM,козье молоко без резекции
+26D,MAM-D,VFGM,козье молоко без резекции
+26F,Fecal,VFGM,козье молоко без резекции
+27A,MAM-J,VFGM,козье молоко без резекции
+27B,MAM-I,VFGM,козье молоко без резекции
+27C,MAMLI,VFGM,козье молоко без резекции
+27D,MAM-D,VFGM,козье молоко без резекции
+28A,MAM-J,VFGM,козье молоко без резекции
+28B,MAM-I,VFGM,козье молоко без резекции
+28C,MAMLI,VFGM,козье молоко без резекции
+28D,MAM-D,VFGM,козье молоко без резекции
+28F,Fecal,VFGM,козье молоко без резекции
+29A,MAM-J,CN/SD ,контроль
+29C,MAMLI,CN/SD ,контроль
+29D1,MAM-D,CN/SD ,контроль
+30A,MAM-J,CN/SD ,контроль
+30B,MAM-I,CN/SD ,контроль
+30C,MAMLI,CN/SD ,контроль
+30D,MAM-D,CN/SD ,контроль
+30F,Fecal,CN/SD ,контроль
+31A,MAM-J,CN/SD ,контроль
+31B,MAM-I,CN/SD ,контроль
+31C,MAMLI,CN/SD ,контроль
+31D,MAM-D,CN/SD ,контроль
+31F,Fecal,CN/SD ,контроль
+32A,MAM-J,CN/SD ,контроль
+32B,MAM-I,CN/SD ,контроль
+32C,MAMLI,CN/SD ,контроль
+32D1,MAM-D,CN/SD ,контроль
+32F,Fecal,CN/SD ,контроль
+33A,MAM-J,CN/SD ,контроль
+33B,MAM-I,CN/SD ,контроль
+33C,MAMLI,CN/SD ,контроль
+33D,MAM-D,CN/SD ,контроль
+33F,Fecal,CN/SD ,контроль
+34A,MAM-J,CN/SD ,контроль
+34B,MAM-I,CN/SD ,контроль
+34C,MAMLI,CN/SD ,контроль
+34D,MAM-D,CN/SD ,контроль
+35A,MAM-J,CN/SD ,контроль
+35B,MAM-I,CN/SD ,контроль
+35C,MAMLI,CN/SD ,контроль
+35D,MAM-D,CN/SD ,контроль
