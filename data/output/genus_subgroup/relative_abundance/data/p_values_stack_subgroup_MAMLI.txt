@@ -1,3 +1,3 @@
 p_values_stack_subgroup_MAMLI: 
-{'g_Helicobacter': 0.09567354770975643, 'c_Bacteroidia': 0.5446438133492268, 'g_Fusobacterium': 0.003274426619037444, 'g_Escherichia-Shigella': 0.04186275189974546, 'c_Saccharimonadia': 0.11445875603554401, 'o_Bacteroidales': 0.28885700139677045, 'c_Clostridia': 0.7426103021594334, 'g_Candidatus Saccharimonas': 0.8451427182370929, 'o_Lactobacillales': 0.02704700806293431, 'f_Oscillospiraceae': 0.9066267632281036}
+{'g_Helicobacter': 0.09567354770975608, 'c_Bacteroidia': 0.5446438133492297, 'g_Fusobacterium': 0.003274426619037444, 'g_Escherichia-Shigella': 0.04186275189974575, 'c_Saccharimonadia': 0.1144587560355434, 'o_Bacteroidales': 0.28885700139677045, 'c_Clostridia': 0.7426103021594334, 'g_Candidatus Saccharimonas': 0.8451427182370929, 'o_Lactobacillales': 0.02704700806293431, 'f_Oscillospiraceae': 0.9066267632281036}
 

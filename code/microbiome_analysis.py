@@ -409,24 +409,48 @@ def alpha_violinplot(alpha_diversity_df, p_value, alpha_index, group_order):
 # ============================================================================
 
 def stack_plot_test(taxon_abundance, pairs, name_suffix='', orientation='vertical'):
-    """
-    Строит stacked bar plot для топ-10 таксонов с использованием matplotlib.
-    
+    """Строит stacked bar plot для топ-10 таксонов с использованием matplotlib.
     Параметры:
-      - taxon_abundance: DataFrame с колонками 'GROUP', 'Taxonomy' и 'Value'.
-      - pairs: список групп для включения.
-      - name_suffix: суффикс для имен файлов.
-      - orientation: 'vertical' или 'horizontal'.
+    - taxon_abundance: DataFrame с колонками 'GROUP', 'Taxonomy' и 'Value'.
+    - pairs: список групп для включения.
+    - name_suffix: суффикс для имен файлов.
+    - orientation: 'vertical' или 'horizontal'.
+    Возвращает словарь с p-value для каждого таксона."""
     
-    Возвращает словарь с p-value для каждого таксона.
-    """
-    filtered_abundance = taxon_abundance[taxon_abundance['GROUP'].isin(pairs)]
+    # Словарь для замены имен групп
+    group_rename_dict = {
+        'CHJ-BPD/DS+': 'VFGM-BPD/DS',
+        'CHJ-BPD/DS-': 'OB/SD'
+    }
+    
+    # Отладка: проверяем уникальные группы
+    print("Исходные уникальные группы:", taxon_abundance['GROUP'].unique())
+    print("Группы в pairs:", pairs)
+    
+    # Создаем копию данных и очищаем от лишних пробелов
+    taxon_abundance_copy = taxon_abundance.copy()
+    taxon_abundance_copy['GROUP'] = taxon_abundance_copy['GROUP'].str.strip()
+    
+    # Заменяем имена групп
+    taxon_abundance_copy['GROUP'] = taxon_abundance_copy['GROUP'].replace(group_rename_dict)
+    
+    # Отладка: проверяем группы после замены
+    print("Группы после замены:", taxon_abundance_copy['GROUP'].unique())
+    
+    # Также обновляем список pairs с новыми именами (и очищаем от пробелов)
+    cleaned_pairs = [str(group).strip() for group in pairs]
+    updated_pairs = [group_rename_dict.get(group, group) for group in cleaned_pairs]
+    
+    print("Обновленные pairs:", updated_pairs)
+    
+    filtered_abundance = taxon_abundance_copy[taxon_abundance_copy['GROUP'].isin(updated_pairs)]
+    
+    # Остальной код остается без изменений...
     mean_abundance = filtered_abundance.groupby(['GROUP', 'Taxonomy'])['Value'].mean().reset_index()
     mean_abundance['Value'] = pd.to_numeric(mean_abundance['Value'], errors='coerce')
-
     top_taxa = mean_abundance.groupby('Taxonomy')['Value'].sum().nlargest(10).index
     top_taxon_abundance = mean_abundance[mean_abundance['Taxonomy'].isin(top_taxa)]
-
+    
     p_values = {}
     for taxon in top_taxa:
         groups = filtered_abundance[filtered_abundance['Taxonomy'] == taxon].groupby('GROUP')['Value'].apply(list)
@@ -435,25 +459,25 @@ def stack_plot_test(taxon_abundance, pairs, name_suffix='', orientation='vertica
             p_values[taxon] = p_value
         else:
             p_values[taxon] = None
-
+    
     legend_labels = [f"{taxon} {'*' * (3 if p_values[taxon] is not None and p_values[taxon] < 0.001 else 2 if p_values[taxon] is not None and p_values[taxon] < 0.01 else 1 if p_values[taxon] is not None and p_values[taxon] < 0.05 else 0)}"
                      for taxon in top_taxa]
-
+    
     pivot_table = top_taxon_abundance.pivot_table(index='GROUP', columns='Taxonomy',
                                                   values='Value', aggfunc='mean')
-    pivot_table = pivot_table.reindex(pairs)
+    pivot_table = pivot_table.reindex(updated_pairs)
     sorted_taxa = list(top_taxa)
     pivot_table = pivot_table[sorted_taxa]
-
+    
     colors = sns.color_palette('deep', n_colors=len(top_taxa))
     taxa_colors = dict(zip(top_taxa, colors))
-
+    
     fig, ax = plt.subplots(figsize=(2, 5))
     plot_kind = 'barh' if orientation == 'horizontal' else 'bar'
     pivot_table.loc[:, top_taxa].plot(kind=plot_kind, stacked=True,
                                       color=[taxa_colors[taxon] for taxon in top_taxa],
                                       width=1, edgecolor='white', ax=ax)
-
+    
     ax.set_title(f'Top 10 Taxa {name_suffix}')
     if orientation == 'vertical':
         ax.set_ylabel('Percentage of Relative Abundance')
@@ -463,24 +487,28 @@ def stack_plot_test(taxon_abundance, pairs, name_suffix='', orientation='vertica
         ax.set_xlabel('Percentage of Relative Abundance')
         ax.set_ylabel('Groups')
         ax.set_yticklabels(ax.get_yticklabels(), rotation=90)
-
+    
     ax.set_facecolor('none')
     fig.set_facecolor('none')
     ax.spines['top'].set_visible(False)
     ax.spines['right'].set_visible(False)
+    
     patches = [plt.Rectangle((0,0),1,1, color=taxa_colors[taxon]) for taxon in top_taxa]
     plt.legend(patches, legend_labels, title="Taxa Categories",
                bbox_to_anchor=(1.05, 1), loc='upper left', frameon=False)
-
+    
     plt.tight_layout()
+    
     if SAFE_DATA:
         pivot_table.to_excel(f'{PATH_TO_RELATIVE_ABUNDANCE_OUTPUT_DATA}/{NAME_DF}_{name_suffix}_relative_abundance.xlsx', index=True)
         plt.savefig(f'{PATH_TO_RELATIVE_ABUNDANCE_OUTPUT_FIGURE}/{NAME_DF}_stack_{name_suffix}.pdf', bbox_inches='tight')
         with open(f'{PATH_TO_RELATIVE_ABUNDANCE_OUTPUT_DATA}/p_values_{name_suffix}.txt', 'w') as file:
             file.write(f'p_values_{name_suffix}: \n{p_values}\n\n')
+    
     if SHOW:
         plt.show()
     plt.close()
+    
     return p_values
 
 
